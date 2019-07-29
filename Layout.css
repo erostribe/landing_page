@@ -1,0 +1,356 @@
+
+ .bodycolor{
+  background: #d3d4de; 
+ 
+} 
+
+
+.Navcontainer {
+  
+  padding: 20px;
+  background: #202e78;
+  margin: 0 auto;
+
+}
+
+/* buttons FAQ, About, Log In */
+
+
+/* .navig{
+
+} */
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* hr{z
+  width: 80%; */
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+/* factory Image*/
+
+ .Images {
+  position: relative;
+  display: inline-block;
+}
+
+.Images .img-FactOn {
+ 
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+} 
+
+/* .Factory:hover .img-FactOn {
+  
+   display: block;
+   transform: scale(2.5);
+  
+   }
+
+   @media (max-width: 1000px) {
+
+   .Factory:hover .img-FactOn {
+    
+    display: none;
+   
+    }
+
+  } */
+
+/* Hydra Image*/
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+/* Section 1 Top */
+.section1 {
+  display: flex;
+}
+
+
+/* Text Box Left */
+.BoxTextLeft {
+ padding: 20px;
+width: 40%;
+}
+
+
+
+/* Holds the images 3 verticle columns of 2 pics */
+.ImgRight1 {
+   
+   width: 60%;
+  
+  
+ 
+  
+  
+}
+
+/* box that holds the Image */
+
+.box1{
+  background: lightblue;
+}
+
+
+.Images {
+display: flex;
+ height: 258px; 
+ width: 258px;  
+
+}
+
+/* Button Explore */
+
+.btnExplore{ 
+  /* .custom-button(green, 400px, white);
+}  */
+border: 2px solid red;
+}
+
+
+/* btn Join */
+
+.btnJoin{
+  border: 2px solid red;
+  justify-content: bottom;
+  
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background: #5c6ac4;
+  color: white;   
+}
+
+/* .custom-button (@bg-color:#FFBF27, @width, @fontcolor ){
+  display: block;
+  background-color: @bg-color;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: @width;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color:@fontcolor
+} */
+
+/* .sign-up{
+  .custom-button(green, 400px, white);
+} */
+
+
+
+button:hover {
+  background-color: white; 
+  color:#6558f5
+}
+
+
+
+.headimg .btn{
+   position: absolute; 
+    top: 10%; 
+    left: 30%;
+ 
+}
+
+
+
+
+
+/* Display verticle - Mobile */
+
+@media (max-width: 1000px) {
+.ImgRight1 {
+  display: flex;
+  flex-direction: column;
+  background: lightpink;
+  padding: 0;
+  width: 100%;
+  
+}
+
+}
+
+
+
+
+@media (max-width: 1000px) {
+.section1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+/* ImgRight1 600px */
+
+@media (max-width: 1000px) {
+  .ImgRight1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .ImgRight1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+  .ImgRight1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .ImgRight1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+/* Responsive design- for platforms smaller then desktop screen- Tablet, Mobile */
+/* Desktop 1200px */
+
+@media (max-width: 1000px) {
+  .container {
+    background: lightgreen;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* Mobile 600px */
+
+@media (max-width: 500px) {
+  .container {
+    background: lightcoral;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* End Responsive design */
+
+.boxmain {
+  display: flex;
+  justify-content: center;
+  
+}
+
+h1, p{
+    padding: 2%;
+    font-size:25px;
+}
+
+h2{
+  padding: 1%;
+  font-size: 15px;
+  color: black;
+}
+
+
+/* Page 2 */
+
+
+.box1{
+  display: flex;
+}
+
+.LeftBox{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.ImgRight{
+display: flex;
+flex-direction: right;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #86a9ca
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+/* 
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+
+
