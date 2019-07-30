@@ -1,0 +1,349 @@
+@font-face {
+  src: url("../fonts/Helvetica-Neue-Bold.ttf");
+  font-family: "fontbold";
+}
+@font-face {
+  src: url("../fonts/HelveticaNeue-Medium.ttf");
+  font-family: "fontmedium";
+}
+/* @font-face {
+  src: url(Fonts/Helvetica-Neue-Italic.ttf);
+  font-family: nos;
+} */
+.section1 {
+  display: flex;
+}
+@media screen and (max-width: 500px) {
+  .section1 {
+    background: green;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.section1 .TextBoxs {
+  margin: 15px;
+}
+@media screen and (max-width: 500px) {
+  .section1 .TextBoxs {
+    margin: 2px;
+  }
+}
+.section1 .TextBoxs .BoxTextLeft {
+  background: #d3d4de;
+  padding: 15px;
+  width: 450px;
+  height: 300px;
+  margin: 10%;
+}
+@media screen and (max-width: 500px) {
+  .section1 .TextBoxs .BoxTextLeft {
+    margin: 3%;
+  }
+}
+.section1 .ImgRight1 {
+  margin: 20px;
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .section1 .ImgRight1 {
+    margin: 20px;
+    width: 100%;
+  }
+}
+.section1 .ImgRight1 .box1 {
+  display: flex;
+  justify-content: center;
+}
+.section1 .ImgRight1 .Images {
+  display: flex;
+}
+@media screen and (max-width: 500px) {
+  .section1 .ImgRight1 .Images {
+    flex-direction: column;
+  }
+}
+.section1 .ImgRight1 .Images img {
+  object-fit: cover;
+  height: 258px;
+  width: 258px;
+  padding: 15px;
+}
+@media screen and (max-width: 500px) {
+  .section1 .ImgRight1 .Images img {
+    object-fit: cover;
+    height: 258px;
+    width: 80%;
+    padding: 15px;
+  }
+}
+h1 {
+  font-size: 48px;
+  color: #000639;
+  font-family: "fontbold";
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  padding-bottom: 45px;
+}
+.text p {
+  padding: 10px;
+  padding-top: 25px;
+  font-size: 18px;
+  font-family: "fontmedium";
+}
+ul {
+  padding-top: 15px;
+  font-size: 18px;
+  font-family: "fontmedium";
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  /* .custom-button(green, 400px, white);
+        }  */
+}
+.btn button {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  background: #5c6ac4;
+  color: white;
+  font-size: 22px;
+}
+.btn button:hover {
+  background-color: white;
+  color: #6558f5;
+}
+/* Page Login */
+/* factory Image*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.Navcontainer {
+  display: flex;
+  padding: 20px;
+  background: #202e78;
+  margin: 0, auto;
+}
+.Navcontainer .logo {
+  display: flex;
+  width: 50%;
+}
+.Navcontainer .logo nav {
+  display: block;
+  margin: 2%;
+}
+.Navcontainer .logo nav a {
+  padding: 50px;
+  color: white;
+  text-decoration: none;
+  font-family: "fontmedium";
+}
+.Navcontainer .Navig {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.Navcontainer .Navig nav {
+  display: block;
+  margin: 2%;
+}
+.Navcontainer .Navig nav a {
+  padding: 50px;
+  color: white;
+  text-decoration: none;
+  font-family: "fontmedium";
+}
+/* .custom-button (@bg-color:#FFBF27, @width, @fontcolor ){
+  display: block;
+  background-color: @bg-color;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: @width;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color:@fontcolor
+} */
+/* .sign-up{
+  .custom-button(green, 400px, white);
+} */
+/* ABOUT PAGE */
+.aboutcontainer1 {
+  padding: 10px;
+  width: 100%;
+}
+.aboutcontainer1 .title {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  font-size: 48px;
+  color: #000639;
+  font-family: "fontbold";
+}
+.aboutcontainer1 .aboutcontainer2 {
+  display: flex;
+  justify-content: center;
+}
+.aboutcontainer1 .aboutcontainer2 .about {
+  background: #d3d4de;
+  padding: 20px;
+  margin: 1%;
+  width: 300px;
+  height: 400px;
+}
+.aboutcontainer1 .aboutcontainer2 .about .aboutImg {
+  object-fit: cover;
+  padding: 15px;
+}
+.aboutcontainer1 .aboutcontainer2 .about h2 {
+  font-size: 18px;
+  display: flex;
+  font-family: "fontbold";
+}
+.aboutcontainer1 .aboutcontainer2 .about h3 {
+  font-size: 18px;
+  font-family: "fontmedium";
+}
+.aboutcontainer1 .aboutcontainer2 .about h4 {
+  align-content: center;
+  padding: 10px;
+  font-family: "fontmedium";
+  color: #006fbb;
+}
+.aboutcontainer1 .aboutcontainer2 .about p {
+  font-size: 12px;
+  font-family: "fontmedium";
+}
+/* Display verticle - Mobile */
+@media screen and (max-width: 500px) {
+  .Navcontainer {
+    width: 100%;
+  }
+}
